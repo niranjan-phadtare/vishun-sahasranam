@@ -6,7 +6,7 @@ function downloadPDF() {
 
     const a = document.createElement("a");
     a.href = url;
-    a.download = "/Users/niranjanphadtare/Desktop/WEB Development Program/Vishnu Sahasranam/Vishnu Sahasranam Lyrics.pdf";
+    a.download = "Vishnu Sahasranam Lyrics.pdf";
     a.click();
 
     window.URL.revokeObjectURL(url);
